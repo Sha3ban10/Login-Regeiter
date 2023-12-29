@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <title>Smart Login</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="Bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div class="login d-flex">
+        <div class="container my-5 w-50">
+            <div class="row p-4">
+                <div class="col-md-12  text-center px-5">
+                    <h2 class="mt-4">Smart Login System</h2>
+                    <input type="email" id="regEmail" class="form-control bg-transparent text-white my-3"
+                        placeholder="Enter Your Mail">
+                    <input type="password" id="regPass" class="form-control bg-transparent text-white my-3"
+                        placeholder="Enter Your Password">
+                    <button id="SignIn" class="btn w-100 btn-outline-info my-3">Login</button>
+                    <p id="UserNotFound"></p>
+                    <p class="text-white">Don’t have an account?<a href="Sign up.html"
+                            class="text-decoration-none text-info "> Sign Up</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Home d-none flex-column">
+        <nav class="navbar navbar-expand-lg bg-transparent shadow-lg ">
+            <div class="container">
+                <a class="navbar-brand text-white" href="#">SMART LOGIN</a>
+                <button class="btn btn-outline-info"><a href="index.html" class="text-decoration-none text-white">Log
+                        Out</a></button>
+        </nav>
+        <div class="login">
+            <div class="container w-50 vh-100 d-flex justify-content-center align-items-center">
+                <div class="row px-4 fs-5 welcome">
+                    <div class="col-md-12  text-center px-5" id="Welcome">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="JS/Login.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+body {
+    background: #24353f;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.row{
+    color: #17a2b8;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+
+.form-control::-webkit-input-placeholder{
+    color: #ced4da;
+    font-size: 14;
+}
+
+
+a:hover{
+    text-decoration: underline;
+}
+.welcome{
+    color: #17a2b8;
+}
